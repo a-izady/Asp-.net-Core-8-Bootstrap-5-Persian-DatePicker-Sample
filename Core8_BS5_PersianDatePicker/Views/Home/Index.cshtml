@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Alireza Izady</h1>
+    <p>Learn about <a href="https://www.towzinnegar.ir/">TowzinNegar PC Weighing Scale Software</a>.</p>
+</div>
+
+
+
+
+<div class="input-group mb-3">
+    <span id="dtp1" class="input-group-text cursor-pointer" data-mds-dtp-guid="b825fe77-b23c-4b19-bfd5-78c40decb38d" data-bs-original-title="" title="">📅</span>
+    <input type="text" placeholder="Date Picker Text" data-name="dtp1-text" class="form-control">
+    <input type="text" placeholder="Date Picker Date" data-name="dtp1-date" class="form-control">
+</div>
+
+
+@section Scripts {
+    <script>
+        const dtp1Instance = new mds.MdsPersianDateTimePicker(document.getElementById('dtp1'), {
+            targetTextSelector: '[data-name="dtp1-text"]',
+            targetDateSelector: '[data-name="dtp1-date"]',
+            enableTimePicker: true,
+
+        });
+
+    </script>
+
+}

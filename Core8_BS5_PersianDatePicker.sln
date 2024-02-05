@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core8_BS5_PersianDatePicker", "Core8_BS5_PersianDatePicker\Core8_BS5_PersianDatePicker.csproj", "{1CF5C766-7BFF-48F8-ABF0-C8E9C74390E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF5C766-7BFF-48F8-ABF0-C8E9C74390E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF5C766-7BFF-48F8-ABF0-C8E9C74390E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF5C766-7BFF-48F8-ABF0-C8E9C74390E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF5C766-7BFF-48F8-ABF0-C8E9C74390E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15870BEC-C375-459C-AABD-BA71E3F496DC}
+	EndGlobalSection
+EndGlobal
